@@ -1,7 +1,7 @@
 GECCO 2015 Industrial Challenge Entry
 =====================================
 
-The code contains implementation of the entry to GECCO 2015 Industrial Challenge.
+The code contains implementation of an entry to GECCO 2015 Industrial Challenge.
 The methodology used in the implementation is documented in *methodology.md*.
 
 For more information regarding the competition, please refer to
