@@ -55,7 +55,7 @@ Only a "round" function was applied on the "Supply Temperature Setpoint" for
 the 6th period (all data missing at once). This may introduce a minor rounding
 error when recomputing the competition score. 
 To compute the exact value as used in the original submission, remove the 
-round function from prediction/pred-5.R line 183.
+round function from `prediction/pred-5.R` line 183.
 
 
 Reproducibility 
