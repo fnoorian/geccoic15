@@ -2,7 +2,8 @@ GECCO 2015 Industrial Challenge Entry
 =====================================
 
 The code contains implementation of an entry to GECCO 2015 Industrial Challenge.
-The methodology used in the implementation is documented in *methodology.md*.
+The methodology used in the implementation is documented in [methodology.md](methodology.md) and
+[gecco15_methodology_v2.pdf](http://www.ee.usyd.edu.au/cel/UserFiles/File/Farzad/GECCO2015/gecco15_methodology_v2.pdf).
 
 For more information regarding the competition, please refer to
 <http://www.spotseven.de/gecco-challenge/gecco-challenge-2015/>.
@@ -10,13 +11,13 @@ For more information regarding the competition, please refer to
 Running the package
 ===================
 
-To regenerate the entry, first install the required packages in R:
+To reproduce the entry, first install the required packages in R:
  
  ```R
  install.packages(c("timeDate", "lubridate", "xts", "e1071", "gramEvol", "Metrics", "memoise"))
  ```
 
-Run "train-all.R" to cross-validate and select prediction models:
+Run `train-all.R` to cross-validate and select prediction models:
  
  ```R
  source("train-all.R")
@@ -36,7 +37,7 @@ Development and Licensing
 =========================
 
 ## Contact Information
-Feel free to contact the author at:
+Feel free to open an issue in github or contact the author at:
  * Farzad Noorian <farzad.noorian@sydney.edu.au>
 
 ## License
