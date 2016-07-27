@@ -12,11 +12,15 @@ Running the package
 
 To regenerate the entry, first install the required packages in R:
  
- > install.packages(c("timeDate", "lubridate", "xts", "e1071", "gramEvol", "Metrics", "memoise"))
+ ```R
+ install.packages(c("timeDate", "lubridate", "xts", "e1071", "gramEvol", "Metrics", "memoise"))
+ ```
 
 Run "train-all.R" to cross-validate and select prediction models:
  
- > source("train-all.R")
+ ```R
+ source("train-all.R")
+ ```
 
 The models will be stored in the *models" directory. As this process is slow
 (a runtime of 2 days on a 4.0 GHz Intel Core i7-4790 was observed), the selected
@@ -24,7 +28,9 @@ models were stored and are distributed with the source code.
 
 To generate the prediction csv file, run:
 
- > source("pred-all.R")
+```R
+ source("pred-all.R")
+```
 
 Development and Licensing
 =========================
