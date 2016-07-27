@@ -17,7 +17,7 @@ The setpoint was discretized to several bins, and a classifier SVM was trained
 to predict each setpoint based on other 3 time-series.
 
 As a visual inspection of data determined behavior changes around 28th of
-February, two models were trained for before and after 2014/02/28.
+February, two models were trained for before and after 2014-02-28.
 
 ## System supply temperature
 
@@ -55,7 +55,7 @@ Only a "round" function was applied on the "Supply Temperature Setpoint" for
 the 6th period (all data missing at once). This may introduce a minor rounding
 error when recomputing the competition score. 
 To compute the exact value as used in the original submission, remove the 
-round function from `prediction/pred-5.R` line 183.
+round function from [prediction/pred-5.R](prediction/pred-5.R) line 183.
 
 
 Reproducibility 
