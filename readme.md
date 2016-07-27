@@ -23,7 +23,7 @@ Run `train-all.R` to cross-validate and select prediction models:
  source("train-all.R")
  ```
 
-The models will be stored in the *models" directory. As this process is slow
+The models will be stored in the *models* directory. As this process is slow
 (a runtime of 2 days on a 4.0 GHz Intel Core i7-4790 was observed), the selected
 models were stored and are distributed with the source code. 
 
