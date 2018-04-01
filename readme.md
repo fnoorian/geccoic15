@@ -3,7 +3,7 @@ GECCO 2015 Industrial Challenge Entry
 
 The code contains implementation of an entry to GECCO 2015 Industrial Challenge.
 The methodology used in the implementation is documented in [methodology.md](methodology.md) and
-[gecco15_methodology_v2.pdf](http://www.ee.usyd.edu.au/cel/UserFiles/File/Farzad/GECCO2015/gecco15_methodology_v2.pdf).
+[a pdf report](https://www.researchgate.net/publication/324137348_Recovering_time-series_missing_data_An_evolutionary_approach_to_GECCO_2015_industrial_challenge).
 
 For more information regarding the competition, please refer to
 <http://www.spotseven.de/gecco-challenge/gecco-challenge-2015/>.
